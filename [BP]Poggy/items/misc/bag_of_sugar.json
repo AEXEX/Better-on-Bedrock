@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:bag_of_sugar",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"textures": {
+					"default": "bag_of_sugar"
+				}
+			}
+		}
+	}
+}

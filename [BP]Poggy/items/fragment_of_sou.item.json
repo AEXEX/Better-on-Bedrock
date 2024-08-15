@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:fragment_of_sou",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+                "value": "§sFragment Of Soul\n§7Dropped from Fireorbs"
+            },
+			"minecraft:icon": {
+				"texture": "fragment_of_sou"
+			}
+		}
+	}
+}

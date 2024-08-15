@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:polished_dripstone",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 8
+			},
+			"tag:stone": {},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+            "minecraft:geometry": "geometry.shroom_nylium",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "dripstone_stairs",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#ffffff"
+		}
+	}
+}

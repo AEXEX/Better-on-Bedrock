@@ -1,0 +1,55 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:copper_leggings",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.leggings"
+			}
+		},
+		"components": {
+			// We give it the leggings category this time
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:trimmable_armors"
+				]
+			},
+			// Give it an applicable ITEM texture
+			"minecraft:icon": {
+				"textures": {
+					"default": "copper_leggings"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "item.better_on_bedrock:copper_leggings"
+			},
+			"minecraft:max_stack_size": {
+				"value": 1
+			},
+			// Make sure the enchantments are for legs
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_legs"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:copper_ingot"
+						],
+						"repair_amount": 50
+					}
+				]
+			},
+			// Make sure the wearable slot is legs
+			"minecraft:wearable": {
+				"protection": 4,
+				"slot": "slot.armor.legs"
+			},
+			"minecraft:durability": {
+				"max_durability": 180
+			}
+		}
+	}
+}

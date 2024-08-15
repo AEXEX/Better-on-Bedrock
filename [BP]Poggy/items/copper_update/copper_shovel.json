@@ -1,0 +1,142 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "better_on_bedrock:copper_shovel",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.shovel"
+      }
+    },
+    "components": {
+      "minecraft:custom_components": [
+        "pog:tool_durability"
+      ],
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_shovel"
+        ]
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:hand_equipped": {
+        "value": true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "copper_shovel"
+        }
+      },
+      "minecraft:durability": {
+        "max_durability": 1000,
+        "damage_chance": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.better_on_bedrock:copper_shovel"
+      },
+      "minecraft:damage": {
+        "value": 6
+      },
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "axe"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:diamond",
+              "minecraft:stick"
+            ],
+            "repair_amount": "query.max_durability"
+          }
+        ]
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": "vine",
+            "speed": 9
+          },
+          {
+            "block": "soul_soil",
+            "speed": 9
+          },
+          {
+            "block": "soul_sand",
+            "speed": 9
+          },
+          {
+            "block": "powder_snow",
+            "speed": 9
+          },
+          {
+            "block": "dirt_with_roots",
+            "speed": 9
+          },
+          {
+            "block": "glow_lichen",
+            "speed": 9
+          },
+          {
+            "block": "mud",
+            "speed": 9
+          },
+          {
+            "block": "grass",
+            "speed": 9
+          },
+          {
+            "block": "dirt",
+            "speed": 9
+          },
+          {
+            "block": "sand",
+            "speed": 9
+          },
+          {
+            "block": "gravel",
+            "speed": 9
+          },
+          {
+            "block": "farmland",
+            "speed": 9
+          },
+          {
+            "block": "snow_layer",
+            "speed": 9
+          },
+          {
+            "block": "snow",
+            "speed": 9
+          },
+          {
+            "block": "clay",
+            "speed": 9
+          },
+          {
+            "block": "mycelium",
+            "speed": 9
+          },
+          {
+            "block": "grass_path",
+            "speed": 9
+          },
+          {
+            "block": "podzol",
+            "speed": 9
+          },
+          {
+            "block": "concretePowder",
+            "speed": 9
+          }
+        ]
+      }
+    }
+  }
+}

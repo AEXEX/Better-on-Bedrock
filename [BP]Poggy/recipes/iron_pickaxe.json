@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:iron_pickaxe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X",
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "better_on_bedrock:bound_rod"
+      },
+      "X": {
+        "item": "better_on_bedrock:pickaxe_head"
+      }
+    },
+    "result": {
+      "item": "better_on_bedrock:iron_pickaxe"
+    }
+  }
+}

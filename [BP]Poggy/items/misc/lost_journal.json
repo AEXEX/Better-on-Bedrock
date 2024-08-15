@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "better_on_bedrock:lost_journal",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "Info Scroll"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "lost_journal"
+                }
+            }
+        }
+    }
+}

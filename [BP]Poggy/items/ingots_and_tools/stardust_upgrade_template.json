@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "better_on_bedrock:stardust_upgrade_template",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:transform_templates"
+                ]
+            },
+            "minecraft:display_name": {
+                "value": "Stardust Upgrade Template"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "stardust_upgrade_template"
+                }
+            }
+        }
+    }
+}

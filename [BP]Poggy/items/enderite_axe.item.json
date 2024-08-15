@@ -1,0 +1,58 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:enderite_axe",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.axe"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "enderite_axe"
+			},
+			"minecraft:enchantable": {
+				"value": 5,
+				"slot": "axe"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_axe"
+				]
+			},
+			"minecraft:damage": 13,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"speed": 7,
+						"block": {
+							"tags": "query.any_tag('log')"
+						}
+					},
+					{
+						"speed": 7,
+						"block": {
+							"tags": "query.any_tag('wood')"
+						}
+					}
+				]
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 2100
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"iron_ingot"
+						],
+						"repair_amount": 525
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "better_on_bedrock:glowshroom_stem_item",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:max_stack_size": 64,
+            "minecraft:hand_equipped": false,
+            "minecraft:block_placer": {
+                "block": "better_on_bedrock:glowshroom_stem"
+            },
+            "minecraft:icon": {
+                "texture": "glowshroom_stem"
+            }
+        }
+    }
+}

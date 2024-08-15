@@ -1,0 +1,46 @@
+{
+    "namespace":"entity_health",// namespace的entity
+    // ——————————————————————————————————————————————
+    "custom_entity_health_bar":{
+    "type":"panel",
+    "offset":[0, 0],
+    "size":[220, 42],// 面积
+    "controls":[
+    {
+    "empty_progress_bar_entity@empty_progress_bar_entity":{
+    "layer":1
+    }
+    },
+    {
+    "filled_progress_bar_for_collections_entity@filled_progress_bar_for_collections_entity":{
+    "layer":2
+    }
+    }
+    ],
+    "bindings":[
+    {
+    "binding_name":"(#bossName = 'Willager')",
+    "binding_type":"collection",
+    "binding_collection_name":"boss_bars",
+    "binding_name_override":"#visible"
+    }
+    ]
+    },
+    // ——————————————————————————————————————————————
+    "filled_progress_bar_entity":{
+    "type":"image",
+    "texture":"textures/ui/filled_entity_bar",// 满血条路径
+    "clip_direction":"left",
+    "bindings":[{"binding_name":"#progress_percentage","binding_name_override":"#clip_ratio"}]
+    },
+    // ——————————————————————————————————————————————
+    "filled_progress_bar_for_collections_entity@filled_progress_bar_entity":{
+    "clip_pixelperfect":false,
+    "bindings":[{"binding_name":"#progress_percentage","binding_name_override":"#clip_ratio","binding_type":"collection","binding_collection_name":"$progress_bar_collection"}]
+    },
+    // ——————————————————————————————————————————————
+    "empty_progress_bar_entity":{
+    "type":"image",
+    "texture":"textures/ui/empty_entity_bar"// 空血条路径
+    }
+    }

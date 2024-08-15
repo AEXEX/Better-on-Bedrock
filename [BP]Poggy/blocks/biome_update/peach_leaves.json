@@ -1,0 +1,64 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "better_on_bedrock:peach_leaves",
+      "states": {
+        "pog:playerPlaced": [
+          false,
+          true
+        ],
+        "pog:solid": [
+          false,
+          true
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('pog:solid') == true",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "orange_leaves",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('pog:solid') == false",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "peach_leaves",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      }
+    ],
+    "components": { //main components
+      "minecraft:geometry": "geometry.shroom_nylium",
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:tick": {
+        "interval_range": [
+          5,
+          10
+        ]
+      },
+      "minecraft:custom_components": [
+        "pog:leaves_peach"
+      ],
+      "minecraft:loot": "loot_tables/blocks/peach.json",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "peach_leaves",
+          "render_method": "alpha_test",
+          "ambient_occlusion": true,
+          "face_dimming": true
+        }
+      }
+    }
+  }
+}

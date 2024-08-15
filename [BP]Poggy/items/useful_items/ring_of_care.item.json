@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:ring_of_care",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:custom_components": [
+				"pog:end_podium"
+			],
+			"minecraft:icon": {
+				"textures": {
+					"default": "ring_of_care"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "§qRing of Care\n§7Place in a podium for a surprise"
+			}
+		}
+	}
+}

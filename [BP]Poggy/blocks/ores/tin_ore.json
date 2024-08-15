@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:tin_ore"
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5
+			},
+			"minecraft:loot": "loot_tables/ores/tin_ore.json",
+			"minecraft:geometry": "geometry.shroom_nylium",
+			"tag:stone": {},
+			"minecraft:display_name": "tile.better_on_bedrock:tin_ore"
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:netherite_chestplate",
+			// Notice we give it the equipment category
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.chestplate"
+			}
+		},
+		"components": {
+			// Make sure it appears within the chestplate category
+			// The icon we want to use in our INVENTORY
+			"minecraft:icon": {
+				"textures": {
+					"default": "netherite_gold_chestplate"
+				}
+			},
+			// We give it a name
+			"minecraft:display_name": {
+				"value": "item.better_on_bedrock:netherite_chestplate"
+			},
+			// We dont want it to stack
+			"minecraft:max_stack_size": {
+				"value": 1
+			},
+			// We make sure it can only receive enchantments for chest pieces
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_torso"
+			},
+			// This tells it how much protection it should give
+			// We want it to be repairable, and what to use to repair it
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:copper_ingot"
+						],
+						"repair_amount": 50
+					}
+				]
+			},
+			// Mark it as a wearable and that it goes in the chest slot
+			"minecraft:wearable": {
+				"protection": 8,
+				"slot": "slot.armor.chest"
+			},
+			// Provide its durability
+			"minecraft:durability": {
+				"max_durability": 592
+			}
+		}
+	}
+}

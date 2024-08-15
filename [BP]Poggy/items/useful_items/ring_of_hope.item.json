@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:ring_of_hope",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"pog:end_podium"
+			],
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"textures": {
+					"default": "ring_of_hope"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "§qRing of Hope\n§7Place in a podium for a surprise"
+			}
+		}
+	}
+}

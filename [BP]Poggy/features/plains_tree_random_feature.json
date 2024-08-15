@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "better_on_bedrock:plains_tree_random_feature"
+		},
+		"features": [
+			[
+				"minecraft:plains_tree_variation_1", //Coarse dirt weighs 5
+				4
+			],
+			[
+				"minecraft:plains_tree_variation_2", //Coarse dirt weighs 5
+				1
+			],
+			[
+				"minecraft:plains_tree_variation_3", //Coarse dirt weighs 5
+				1
+			],
+			[
+				"minecraft:plains_tree_variation_5", //Coarse dirt weighs 5
+				17
+			],
+			[
+				"minecraft:plains_tree_variation_6", //Coarse dirt weighs 5
+				16
+			]
+		]
+	}
+}

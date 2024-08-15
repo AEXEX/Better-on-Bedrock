@@ -1,0 +1,271 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:sus_soulsand",
+			"menu_category": { "category": "construction" },
+			"states": {
+				"pog:one" :[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"pog:two": [ "air", "magma_cream", "bone", "ender_pearl", "gold_ingot","ghast_tear", "copper_ingot", "iron_ingot" ]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:facing_direction"]
+				}
+			}
+},
+"permutations": [
+	{
+		"condition": "q.block_state('minecraft:facing_direction') == 'up' || q.block_state('minecraft:facing_direction') == 'down' ",
+		"components": {
+			"minecraft:transformation": {
+				"rotation": [90, 0, 0]
+			}
+		}
+	},
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'north' ",
+    "components": {
+      "minecraft:transformation": {
+        "rotation": [0, 180, 0]
+      }
+    }
+  },
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'south' ",
+    "components": {
+      "minecraft:transformation": {
+        "rotation": [0, 0, 0]
+      }
+    }
+  },
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'east' ",
+    "components": {
+      "minecraft:transformation": {
+        "rotation": [0, 90, 0]
+      }
+    }
+  },
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'west' ",
+    "components": {
+      "minecraft:transformation": {
+        "rotation": [0, 270, 0]
+      }
+    }
+  },
+			{
+				"components": {
+					"minecraft:geometry": "geometry.test",
+					"minecraft:material_instances": {
+						"block": {
+							"texture": "soulsand_1",
+							"render_method": "alpha_test"
+						},
+						"*": {
+							"texture": "soulsand_1",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"condition": "query.block_state('pog:one') >= 0"
+			},
+			{
+				"components": {
+					"minecraft:geometry": "geometry.test1",
+					"minecraft:material_instances": {
+						"block": {
+							"texture": "soulsand_2",
+							"render_method": "alpha_test"
+						},
+						"*": {
+							"texture": "soulsand_2",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"condition": "query.block_state('pog:one') >= 3"
+			},
+			{
+				"components": {
+					"minecraft:geometry": "geometry.test2",
+					"minecraft:material_instances": {
+						"block": {
+							"texture": "soulsand_3",
+							"render_method": "alpha_test"
+						},
+						"*": {
+							"texture": "soulsand_3",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"condition": "query.block_state('pog:one') >= 5"
+			}, // here ends block 3 states
+			{
+				"components": {
+					"minecraft:geometry": "geometry.test3",
+					"minecraft:material_instances": {
+						"block": {
+							"texture": "soulsand_4",
+							"render_method": "alpha_test"
+						},
+						"*": {
+							"texture": "soulsand_4",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"condition": "query.block_state('pog:one') >= 7"
+			}, // here ends block 3 states
+			
+			
+			{
+				"condition": "query.block_state('pog:two') == 'magma_cream'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+						"*":  {
+							"texture": "soulsand_1",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "magma_cream",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'bone'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "soulsand_1",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "bone",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'ender_pearl'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+						
+						"*": {
+							"texture": "soulsand_1",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "ender_pearl",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'gold_ingot'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+					
+						"*": {
+							"texture": "soulsand_1",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "gold_ingot",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'ghast_tear'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "soulsand_1",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "ghast_tear",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'copper_ingot'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+					
+						"*": {
+							"texture": "soulsand_1",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "copper_ingot",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'iron_ingot'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+						"*":  {
+							"texture": "soulsand_1",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "iron_ingot",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			}
+
+		],
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 1 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 30 },
+			"minecraft:geometry": "geometry.test",
+			"minecraft:map_color": "#ffffff"
+		}
+	}
+}

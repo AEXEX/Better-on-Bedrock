@@ -1,0 +1,61 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:mangrove_crafting_table",
+			"menu_category": { "category": "items" },
+			"is_experimental": true
+		},
+		"components": {
+            "minecraft:crafting_table": {
+                "crafting_tags": ["crafting_table"],
+                "table_name": "Crafting Table"
+            },
+			//Basic components
+			"minecraft:destructible_by_mining":{
+				"seconds_to_destroy": 2
+			},
+            "minecraft:geometry": "geometry.shroom_nylium",
+            "tag:wood": {},
+			"minecraft:selection_box":{
+				"origin":[
+				   -8,
+				   0,
+				   -8
+				],
+				"size":[
+				   16,
+				   16,
+				   16
+				]
+			 },
+			        
+			"minecraft:material_instances": {
+                "north":{
+                    "texture": "mangrove_table_side",
+					"render_method": "alpha_test"
+                },
+				"east":{
+                    "texture": "mangrove_table_side_2",
+					"render_method": "alpha_test"
+                },
+                "south":{
+                    "texture": "mangrove_table_side",
+					"render_method": "alpha_test"
+                },
+                "west":{
+                    "texture": "mangrove_table_side_2",
+					"render_method": "alpha_test"
+                },
+                "up":{
+                    "texture": "crafting_table",
+					"render_method": "alpha_test"
+                },
+                "down":{
+                    "texture": "mangrove_planks",
+					"render_method": "alpha_test"
+                }
+			}
+		}
+	}
+}

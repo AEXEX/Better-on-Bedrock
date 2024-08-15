@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "better_on_bedrock:orange_leaves",
+      "states": {
+        "pog:playerPlaced": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": { //main components
+      "minecraft:geometry": "geometry.shroom_nylium",
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:tick": {
+        "interval_range": [
+          5,
+          10
+        ]
+      },
+      "minecraft:custom_components": [
+        "pog:leaves_orange"
+      ],
+      "minecraft:loot": "loot_tables/blocks/orange_leaves.json",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "orange_leaves",
+          "render_method": "alpha_test",
+          "ambient_occlusion": true,
+          "face_dimming": true
+        }
+      }
+    }
+  }
+}

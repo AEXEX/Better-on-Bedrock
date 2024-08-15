@@ -1,0 +1,41 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:baguete",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.miscFood"
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+				"tags": [
+					"pog:compost",
+					"pog:mythicTier"
+				]
+			},
+			"minecraft:custom_components": [
+				"pog:compost"
+			],
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": true,
+			"minecraft:glint": false,
+			"minecraft:food": {
+				"nutrition": 8,
+				"saturation_modifier": 2,
+				"can_always_eat": false
+			},
+			"minecraft:use_modifiers": {
+				"use_duration": 1.6,
+				"movement_modifier": 0.35
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:icon": {
+				"textures": {
+					"default": "baguete"
+				}
+			}
+		}
+	}
+}

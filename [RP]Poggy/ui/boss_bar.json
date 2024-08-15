@@ -1,0 +1,701 @@
+{
+    "namespace": "boss_commons",
+    "boss_health_template": {
+        "type": "panel",
+        "anchor_from": "top_middle",
+        "anchor_to": "top_middle",
+        "size": [
+            240,
+            61
+        ],
+        "bindings": [
+            {
+                "binding_name": "(#bossName = $boss_name)",
+                "binding_type": "collection",
+                "binding_collection_name": "boss_bars",
+                "binding_name_override": "#visible"
+            }
+        ]
+    },
+    "filled_bossbar_template": {},
+    "samurai_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "samurai_empty_bar@samurai_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        182,
+                        7
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "samurai_full_bar@samurai_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        182,
+                        7
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "samurai_overlay_bossbar@samurai_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "seeker_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "seeker_empty_bar@seeker_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "seeker_full_bar@seeker_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "seeker_overlay_bossbar@seeker_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "soot_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "soot_empty_bar@soot_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "soot_full_bar@soot_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "soot_overlay_bossbar@soot_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "poggy_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "poggy_empty_bar@poggy_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "poggy_full_bar@poggy_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "poggy_overlay_bossbar@poggy_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "inferior_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "inferior_empty_bar@inferior_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "inferior_full_bar@inferior_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "inferior_overlay_bossbar@inferior_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "flender_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "flender_empty_bar@flender_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "flender_full_bar@flender_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "flender_overlay_bossbar@flender_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "enchanter_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "enchanter_empty_bar@enchanter_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "flender_full_bar@enchanter_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "enchanter_overlay_bossbar@enchanter_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "willager_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "willager_empty_bar@willager_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "willager_full_bar@willager_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "willager_overlay_bossbar@willager_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "dragon_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "dragon_empty_bar@dragon_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "dragon_full_bar@dragon_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "dragon_overlay_bossbar@dragon_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "wither_bossbar@boss_health_template": {
+        "controls": [
+            {
+                "wither_empty_bar@wither_empty_bar": {
+                    "layer": 1,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "wither_full_bar@wither_full_bar": {
+                    "layer": 2,
+                    "size": [
+                        180,
+                        5
+                    ],
+                    "offset": [
+                        0,
+                        8.5
+                    ],
+                    "keep_ratio": false
+                }
+            },
+            {
+                "wither_overlay_bossbar@wither_overlay_bossbar": {
+                    "layer": 3,
+                    "size": [
+                        182,
+                        14
+                    ],
+                    "offset": [
+                        0,
+                        6
+                    ],
+                    "keep_ratio": false
+                }
+            }
+        ]
+    },
+    "samurai_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/boss_bar_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "samurai_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/boss_bar_empty"
+    },
+    "samurai_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/samurai_boss_overlay"
+    },
+    "seeker_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/seeker_boss_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "seeker_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/seeker_boss_empty"
+    },
+    "seeker_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/seeker_boss_overlay"
+    },
+    "soot_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/soot_boss_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "soot_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/soot_boss_empty"
+    },
+    "soot_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/soot_boss_overlayl"
+    },
+    "poggy_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/poggy_boss_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "poggy_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/poggy_boss_empty"
+    },
+    "poggy_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/poggy_boss_overlay"
+    },
+    "inferior_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/inferior_boss_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "inferior_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/inferior_boss_empty"
+    },
+    "inferior_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/inferior_boss_overlay"
+    },
+    "flender_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/flender_boss_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "flender_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/flender_boss_empty"
+    },
+    "flender_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/flender_boss_overlay"
+    },
+    "enchanter_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/enchanter_boss_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "enchanter_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/enchanter_boss_empty"
+    },
+    "enchanter_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/enchanter_boss_overlay"
+    },
+    "willager_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/willager_boss_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "willager_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/willager_boss_empty"
+    },
+    "willager_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/willager_boss_overlay"
+    },
+    "dragon_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/dragon_boss_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "dragon_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/dragon_boss_empty"
+    },
+    "dragon_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/dragon_boss_overlay"
+    },
+    "wither_full_bar": {
+        "type": "image",
+        "texture": "textures/ui/wither_boss_full",
+        "clip_direction": "left",
+        "clip_pixelperfect": true,
+        "bindings": [
+            {
+                "binding_name": "#progress_percentage",
+                "binding_name_override": "#clip_ratio",
+                "binding_type": "collection",
+                "binding_collection_name": "$progress_bar_collection"
+            }
+        ]
+    },
+    "wither_empty_bar": {
+        "type": "image",
+        "texture": "textures/ui/wither_boss_empty"
+    },
+    "wither_overlay_bossbar": {
+        "type": "image",
+        "texture": "textures/ui/wither_boss_overlay"
+    }
+}

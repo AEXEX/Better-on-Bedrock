@@ -1,0 +1,271 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:test",
+			"menu_category": { "category": "construction" },
+			"states": {
+				"pog:one" :[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"pog:two": [ "air", "stick", "bone", "emerald", "diamond","golden_apple", "copper_ingot", "iron_ingot" ]
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:facing_direction"]
+				}
+			}
+},
+"permutations": [
+	{
+		"condition": "q.block_state('minecraft:facing_direction') == 'up' || q.block_state('minecraft:facing_direction') == 'down' ",
+		"components": {
+			"minecraft:transformation": {
+				"rotation": [90, 0, 0]
+			}
+		}
+	},
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'north' ",
+    "components": {
+      "minecraft:transformation": {
+        "rotation": [0, 180, 0]
+      }
+    }
+  },
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'south' ",
+    "components": {
+      "minecraft:transformation": {
+        "rotation": [0, 0, 0]
+      }
+    }
+  },
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'east' ",
+    "components": {
+      "minecraft:transformation": {
+        "rotation": [0, 90, 0]
+      }
+    }
+  },
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'west' ",
+    "components": {
+      "minecraft:transformation": {
+        "rotation": [0, 270, 0]
+      }
+    }
+  },
+			{
+				"components": {
+					"minecraft:geometry": "geometry.test",
+					"minecraft:material_instances": {"*": {
+						"texture": "stone_4",
+						"render_method": "alpha_test"
+					},
+						"block": {
+							"texture": "stone_1",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"condition": "query.block_state('pog:one') >= 0"
+			},
+			{
+				"components": {
+					"minecraft:geometry": "geometry.test1",
+					"minecraft:material_instances": {"*": {
+						"texture": "stone_4",
+						"render_method": "alpha_test"
+					},
+						"block": {
+							"texture": "stone_2",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"condition": "query.block_state('pog:one') >= 3"
+			},
+			{
+				"components": {
+					"minecraft:geometry": "geometry.test2",
+					"minecraft:material_instances": {"*": {
+						"texture": "stone_4",
+						"render_method": "alpha_test"
+					},
+						"block": {
+							"texture": "stone_3",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"condition": "query.block_state('pog:one') >= 5"
+			}, // here ends block 3 states
+			{
+				"components": {
+					"minecraft:geometry": "geometry.test3",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "stone_4",
+							"render_method": "alpha_test"
+						},
+						"block": {
+							"texture": "stone_4",
+							"render_method": "alpha_test"
+						}
+					}
+				},
+				"condition": "query.block_state('pog:one') >= 7"
+			}, // here ends block 3 states
+			
+			
+			{
+				"condition": "query.block_state('pog:two') == 'stick'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+						
+						"*": {
+							"texture": "stone_4",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "test",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'bone'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "stone_4",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "test1",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'emerald'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+						
+						"*": {
+							"texture": "stone_4",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "emerald",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'diamond'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+					
+						"*": {
+							"texture": "stone_4",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "diamond",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'golden_apple'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+					
+						"*": {
+							"texture": "stone_4",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "golden_apple",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'copper_ingot'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+					
+						"*": {
+							"texture": "stone_4",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "copper_ingot",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			},
+			{
+				"condition": "query.block_state('pog:two') == 'iron_ingot'",
+				"components": {
+					"minecraft:selection_box":{
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 16 ]
+					},
+					"minecraft:material_instances": {
+					
+						"*": {
+							"texture": "stone_4",
+							"render_method": "alpha_test"
+						},
+						"item_texture": {
+							"texture": "iron_ingot",
+							"render_method": "alpha_test"
+						}
+					}
+				}	
+			}
+
+		],
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 1 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 30 },
+			"minecraft:geometry": "geometry.test",
+			"minecraft:map_color": "#ffffff"
+		}
+	}
+}

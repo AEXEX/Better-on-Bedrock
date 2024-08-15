@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:enderite_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"pog:tool_hit_entity"
+			],
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"textures": {
+					"default": "enderite_sword"
+				}
+			},
+			"minecraft:damage": 15,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 2039
+			},
+			"minecraft:enchantable": {
+				"value": 5,
+				"slot": "sword"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"iron_ingot"
+						],
+						"repair_amount": 509
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

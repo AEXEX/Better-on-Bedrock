@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:voided_bush",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.leaves"
+			}
+		},
+		"components": {
+			"minecraft:tick": {
+                "interval_range": [
+                    30,
+                    84
+                ]
+            },
+			"minecraft:custom_components": ["pog:tick"],
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:light_emission": 15,
+			"minecraft:geometry": "geometry.voided_bush",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "voided_bush",
+					"render_method": "alpha_test"
+				}
+			},
+
+			"minecraft:map_color": "#7d7d7d"
+		}
+	}
+}

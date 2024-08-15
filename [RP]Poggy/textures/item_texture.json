@@ -1,0 +1,1343 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "stardust_upgrade_template": {
+      "textures": "textures/items/stardust_upgrade_smithing_template.png"
+    },
+    "bound_rod": {
+      "textures": "textures/items/bound_rod.png"
+    },
+    "record_stardust": {
+      "textures": "textures/items/record_stardust.png"
+    },
+    "upgraded_ice_rune": {
+      "textures": "textures/items/staffs/upgraded_ice_rune.png"
+    },
+    "upgraded_flame_rune": {
+      "textures": "textures/items/staffs/upgraded_flame_rune.png"
+    },
+    "pickaxe_head": {
+      "textures": "textures/items/pickaxe_head.png"
+    },
+    "bellflower": {
+      "textures": "textures/blocks/flowers/bellflower.png"
+    },
+    "clematis": {
+      "textures": "textures/blocks/flowers/clematis.png"
+    },
+    "end_blossom_spore_head": {
+      "textures": "textures/items/end_blossom_spore_head.png"
+    },
+    "end_berry": {
+      "textures": "textures/items/end_berry.png"
+    },
+    "lost_journal": {
+      "textures": "textures/items/lost_journal.png"
+    },
+    "enderium_smelted": {
+      "textures": "textures/items/enderium_smelted.png"
+    },
+    "rage_potion": {
+      "textures": "textures/items/rage_potion.png"
+    },
+    "schroom_hat": {
+      "textures": "textures/items/schroom_hat.png"
+    },
+    "shulker_legging": {
+      "textures": "textures/items/shulker_legging.png"
+    },
+    "shulker_boots": {
+      "textures": "textures/items/shulker_boots.png"
+    },
+    "shulker_chestplate": {
+      "textures": "textures/items/shulker_chestplate.png"
+    },
+    "shulker_helmet": {
+      "textures": "textures/items/shulker_helmet.png"
+    },
+    "toxic_ball": {
+      "textures": "textures/items/toxic_ball.png"
+    },
+    "the_ardent_crystal": {
+      "textures": "textures/items/the_ardent_crystal.png"
+    },
+    "schroom_sample": {
+      "textures": "textures/items/schroom_sample.png"
+    },
+    "persisting_embodiment": {
+      "textures": "textures/items/persisting_embodiment.png"
+    },
+    "legrang": {
+      "textures": "textures/items/legrang.png"
+    },
+    "horn": {
+      "textures": "textures/items/horn.png"
+    },
+    "fragment_of_sou": {
+      "textures": "textures/items/fragment_of_sou.png"
+    },
+    "combustible_scrap": {
+      "textures": "textures/items/combustible_scrap.png"
+    },
+    "carnivorous_mandibile": {
+      "textures": "textures/items/carnivorous_mandibile.png"
+    },
+    "blazing_jewel": {
+      "textures": "textures/items/blazing_jewel.png"
+    },
+    "bane_spike": {
+      "textures": "textures/items/bane_spike.png"
+    },
+    "enderium": {
+      "textures": "textures/items/enderium.png"
+    },
+    "end_lantern": {
+      "textures": "textures/items/end_lantern.png"
+    },
+    "end_scroll": {
+      "textures": "textures/items/end_scroll.png"
+    },
+    "end_cookie": {
+      "textures": "textures/items/end_cookie.png"
+    },
+    "end_shard": {
+      "textures": "textures/items/end_shard.png"
+    },
+    "chorus_flitter": {
+      "textures": "textures/items/chorus_flitter.png"
+    },
+    "voidberry_pie": {
+      "textures": "textures/items/voidberry_pie.png"
+    },
+    "enderite_ingot": {
+      "textures": "textures/items/enderite_ingot.png"
+    },
+    "enderite_pickaxe": {
+      "textures": "textures/items/enderite_pickaxe.png"
+    },
+    "enderite_axe": {
+      "textures": "textures/items/enderite_axe.png"
+    },
+    "enderite_sword": {
+      "textures": "textures/items/enderite_sword.png"
+    },
+    "ender_stew": {
+      "textures": "textures/items/ender_stew.png"
+    },
+    "void_totem": {
+      "textures": "textures/items/void_totem.png"
+    },
+    "voiding_boots": {
+      "textures": "textures/items/voiding_boots.png"
+    },
+    "ring_of_care": {
+      "textures": "textures/items/ring_of_care.png"
+    },
+    "ring_of_hate": {
+      "textures": "textures/items/ring_of_hate.png"
+    },
+    "ring_of_hope": {
+      "textures": "textures/items/ring_of_hope.png"
+    },
+    "multi_ring": {
+      "textures": "textures/items/multi_ring.png"
+    },
+    "tall_chorus_grass": {
+      "textures": "textures/blocks/chorus_forest/top_tall_chorus.png"
+    },
+    "chorus_door_item": {
+      "textures": "textures/blocks/chorus_door_item.png"
+    },
+    "vacant_door_item": {
+      "textures": "textures/blocks/vacant_dusk_door_item.png"
+    },
+    "voiding_door_item": {
+      "textures": "textures/blocks/voiding_dusk_door_item.png"
+    },
+    "flare": {
+      "textures": "textures/blocks/biome_flowers/flare.png"
+    },
+    "flare2": {
+      "textures": "textures/blocks/biome_flowers/flare2.png"
+    },
+    "flare3": {
+      "textures": "textures/blocks/biome_flowers/flare3.png"
+    },
+    "flare4": {
+      "textures": "textures/blocks/biome_flowers/flare4.png"
+    },
+    "gloomy": {
+      "textures": "textures/blocks/biome_flowers/gloomy.png"
+    },
+    "gloomy2": {
+      "textures": "textures/blocks/biome_flowers/gloomy2.png"
+    },
+    "gloomy3": {
+      "textures": "textures/blocks/biome_flowers/gloomy3.png"
+    },
+    "gloomy4": {
+      "textures": "textures/blocks/biome_flowers/gloomy4.png"
+    },
+    "lil": {
+      "textures": "textures/blocks/biome_flowers/lil.png"
+    },
+    "lil2": {
+      "textures": "textures/blocks/biome_flowers/lil2.png"
+    },
+    "lil3": {
+      "textures": "textures/blocks/biome_flowers/lil3.png"
+    },
+    "lil4": {
+      "textures": "textures/blocks/biome_flowers/lil4.png"
+    },
+    "lunar": {
+      "textures": "textures/blocks/biome_flowers/lunar.png"
+    },
+    "lunar2": {
+      "textures": "textures/blocks/biome_flowers/lunar2.png"
+    },
+    "lunar3": {
+      "textures": "textures/blocks/biome_flowers/lunar3.png"
+    },
+    "lunar4": {
+      "textures": "textures/blocks/biome_flowers/lunar4.png"
+    },
+    "chorus_vines": {
+      "textures": "textures/blocks/chorus_forest/chorus_vines.png"
+    },
+    "chorus_vine_head": {
+      "textures": "textures/blocks/chorus_forest/chorus_vines_plant.png"
+    },
+    "glowshroom_furr": {
+      "textures": "textures/blocks/glowshroom_furr.png"
+    },
+    "glowshroom_stem": {
+      "textures": "textures/blocks/glowshroom_stem.png"
+    },
+    "glowshroom_stem_base": {
+      "textures": "textures/blocks/vine_base_head.png"
+    },
+    "mushroom_vine_base": {
+      "textures": "textures/blocks/vine_base_head_head.png"
+    },
+    "mushroom_vine_body": {
+      "textures": "textures/blocks/vine_base_head.png"
+    },
+    "mushroom_vine_head": {
+      "textures": "textures/blocks/vine_base.png"
+    },
+    "tall_abyss_grass": {
+      "textures": "textures/blocks/voided_abyss_grass_top.png"
+    },
+    "chorus_lily": {
+      "textures": "textures/blocks/chorus_forest/chorus_lily.png"
+    },
+    "shroom_shrub": {
+      "textures": "textures/blocks/shroom_shrub.png"
+    },
+    "shrub": {
+      "textures": "textures/blocks/shrub.png"
+    },
+    "shrubflower": {
+      "textures": "textures/blocks/biome/shrubflower.png"
+    },
+    "lumen_flower": {
+      "textures": "textures/blocks/flower.png"
+    },
+    "shrubshroom": {
+      "textures": "textures/blocks/biome/shrubshroom.png"
+    },
+    "small_spore": {
+      "textures": "textures/blocks/small_spore.png"
+    },
+    "tentacaled_chorus": {
+      "textures": "textures/blocks/tentacled_chorus.png"
+    },
+    "vacant_tree_vines": {
+      "textures": "textures/items/vacant_tree_furr.png"
+    },
+    "voiding_abyss_bush": {
+      "textures": "textures/blocks/abyss/voiding_abyss_bush.png"
+    },
+    "voiding_plains_grass": {
+      "textures": "textures/blocks/vp_grass.png"
+    },
+    "voiding_plains_grass_two_item": {
+      "textures": "textures/blocks/vp_grass2.png"
+    },
+    "small_lilly": {
+      "textures": "textures/blocks/small_lilly.png"
+    },
+    "end_spore": {
+      "textures": "textures/blocks/end_spore.png"
+    },
+    "vacant_vines": {
+      "textures": "textures/blocks/biome/vacant_vine.png"
+    },
+    "voiding_abyss_grass": {
+      "textures": "textures/blocks/abyss/voiding_abyss_grass.png"
+    },
+    "tentacaled_chorus_lilly": {
+      "textures": "textures/blocks/tentacled_chorus_lilly.png"
+    },
+    "soul_jar": {
+      "textures": "textures/items/soul_jar.png"
+    },
+    "double_plant_rose_top": {
+      "textures": "textures/blocks/double_plant_rose_top.png"
+    },
+    "bought_quest": {
+      "textures": "textures/items/bounty_system/bought_quest.png"
+    },
+    "waystone_item": {
+      "textures": "textures/items/waystone/waystone.png"
+    },
+    "necklace_fragment": {
+      "textures": "textures/items/trophies/ghost_necklace_fragment.png"
+    },
+    "double_plant_syringa_top": {
+      "textures": "textures/blocks/syringa_top.png"
+    },
+    "double_plant_paeonia_top": {
+      "textures": "textures/blocks/double_plant_paeonia_top.png"
+    },
+    "double_plant_sunflower_front": {
+      "textures": "textures/blocks/double_plant_sunflower_front.png"
+    },
+    "special_brush": {
+      "textures": "textures/items/new_brush.png"
+    },
+    "hanging_pot_item": {
+      "textures": "textures/items/hanging_pots/hanging_flowerpot.png"
+    },
+    "allium": {
+      "textures": "textures/blocks/flower_allium.png"
+    },
+    "blue_rose": {
+      "textures": "textures/blocks/flower_rose.png"
+    },
+    "cornflower": {
+      "textures": "textures/blocks/flower_cornflower.png"
+    },
+    "flower_blue": {
+      "textures": "textures/blocks/flower_blue_orchid.png"
+    },
+    "houstinia": {
+      "textures": "textures/blocks/flower_houstonia.png"
+    },
+    "lilly": {
+      "textures": "textures/blocks/flower_lily_of_the_valley.png"
+    },
+    "orange_tulip": {
+      "textures": "textures/blocks/flower_tulip_orange.png"
+    },
+    "oxeye": {
+      "textures": "textures/blocks/flower_oxeye_daisy.png"
+    },
+    "pink_tulip": {
+      "textures": "textures/blocks/flower_tulip_pink.png"
+    },
+    "red_tulip": {
+      "textures": "textures/blocks/flower_tulip_red.png"
+    },
+    "white_tulip": {
+      "textures": "textures/blocks/flower_tulip_white.png"
+    },
+    "smeared_pearl": {
+      "textures": "textures/items/smeared_pearl.png"
+    },
+    "lava_salad": {
+      "textures": "textures/items/lava_salad.png"
+    },
+    "fungus_stew": {
+      "textures": "textures/items/fungus_stew.png"
+    },
+    "firey_ingot": {
+      "textures": "textures/items/firey_ingot.png"
+    },
+    "record_9": {
+      "textures": "textures/items/record_8.png"
+    },
+    "corstinite_ingot": {
+      "textures": "textures/items/corstinite_ingot.png"
+    },
+    "resistance_potion": {
+      "textures": "textures/items/potion_bottle_resistance.png"
+    },
+    "combined_elements": {
+      "textures": "textures/items/combined_elements.png"
+    },
+    "corrupt_potion": {
+      "textures": "textures/items/potion_bottle_corrupt.png"
+    },
+    "corstinite_boots": {
+      "textures": "textures/items/corstinite_boots.png"
+    },
+    "corstinite_leggings": {
+      "textures": "textures/items/corstinite_leggings.png"
+    },
+    "corstinite_helmet": {
+      "textures": "textures/items/corstinite_helmet.png"
+    },
+    "corstinite_chestplate": {
+      "textures": "textures/items/corstinite_chestplate.png"
+    },
+    "blade_of_the_nether": {
+      "textures": "textures/items/blade_of_the_nether.png"
+    },
+    "samurai_eye": {
+      "textures": [
+        "textures/items/samurai_eye"
+      ]
+    },
+    "armored_pyroclast_eye": {
+      "textures": [
+        "textures/items/inferno_eye"
+      ]
+    },
+    "blackstone_crumb": {
+      "textures": [
+        "textures/items/blackstone_crumb"
+      ]
+    },
+    "quetzacaw_egg": {
+      "textures": [
+        "textures/items/green_bird_egg"
+      ]
+    },
+    "quetzacaw_feather": {
+      "textures": [
+        "textures/items/flender_wing"
+      ]
+    },
+    "nether_amulet_empty": {
+      "textures": [
+        "textures/items/empty_gauntlet"
+      ]
+    },
+    "nether_amulet_1_stone_green": {
+      "textures": [
+        "textures/items/nether_gauntlet_green"
+      ]
+    },
+    "nether_amulet_2_stone_green_red": {
+      "textures": [
+        "textures/items/nether_gauntlet_green_red"
+      ]
+    },
+    "bether_amulet_2_stone_green_yellow": {
+      "textures": [
+        "textures/items/nether_gauntlet_green_purple"
+      ]
+    },
+    "nether_amulet_1_stone_red": {
+      "textures": [
+        "textures/items/nether_gauntlet_red"
+      ]
+    },
+    "nether_amulet_1_stone_red_green": {
+      "textures": [
+        "textures/items/nether_gauntlet_red_green"
+      ]
+    },
+    "nether_amulet_1_stone_red_yellow": {
+      "textures": [
+        "textures/items/nether_gauntlet_red_yellow"
+      ]
+    },
+    "nether_amulet_1_stone_yellow": {
+      "textures": [
+        "textures/items/nether_gauntlet_yellow"
+      ]
+    },
+    "nether_amulet_2_stone_yellow_green": {
+      "textures": [
+        "textures/items/nether_gauntlet_yellow_green"
+      ]
+    },
+    "nether_amulet_2_stone_yellow_red": {
+      "textures": [
+        "textures/items/nether_gauntlet_yellow_red"
+      ]
+    },
+    "nether_amulet_3_stone_yellow_red_green": {
+      "textures": [
+        "textures/items/full_gauntlet"
+      ]
+    },
+    "blower": {
+      "textures": [
+        "textures/items/blower"
+      ]
+    },
+    "green_stone": {
+      "textures": [
+        "textures/items/green_stone"
+      ]
+    },
+    "red_stone": {
+      "textures": [
+        "textures/items/red_stone"
+      ]
+    },
+    "yellow_stone": {
+      "textures": [
+        "textures/items/yellow_stone"
+      ]
+    },
+    "nether_waystone_key": {
+      "textures": [
+        "textures/items/waystone/nether_waystone_key"
+      ]
+    },
+    "fused_soul_helmet": {
+      "textures": [
+        "textures/items/ores/soul_fused_aluminum_helmet"
+      ]
+    },
+    "sandwich": {
+      "textures": [
+        "textures/items/food_expansion/beef_sandwich"
+      ]
+    },
+    "beef_burger": {
+      "textures": [
+        "textures/items/food_expansion/beef_burger"
+      ]
+    },
+    "config": {
+      "textures": [
+        "textures/ui/automation_glyph_color"
+      ]
+    },
+    "stronger_string": {
+      "textures": [
+        "textures/items/string_belt"
+      ]
+    },
+    "deer_hide": {
+      "textures": [
+        "textures/items/deer_hide"
+      ]
+    },
+    "beef_patty_raw": {
+      "textures": [
+        "textures/items/food_expansion/beef_patty_raw"
+      ]
+    },
+    "beef_patty": {
+      "textures": [
+        "textures/items/food_expansion/beef_patty_cooked"
+      ]
+    },
+    "blueberries": {
+      "textures": [
+        "textures/items/food_expansion/blueberries"
+      ]
+    },
+    "dagger": {
+      "textures": [
+        "textures/items/stone_dagger"
+      ]
+    },
+    "raw_mutton_chops": {
+      "textures": [
+        "textures/items/food_expansion/mutton_chops_raw"
+      ]
+    },
+    "mutton_chops_cooked": {
+      "textures": [
+        "textures/items/food_expansion/mutton_chops_cooked"
+      ]
+    },
+    "fried_egg": {
+      "textures": [
+        "textures/items/food_expansion/fried_egg"
+      ]
+    },
+    "egg_sandwich": {
+      "textures": [
+        "textures/items/food_expansion/egg_sandwich"
+      ]
+    },
+    "fused_soul_chestplate": {
+      "textures": [
+        "textures/items/ores/soul_fused_aluminum_chestplate"
+      ]
+    },
+    "amethyst_axe": {
+      "textures": [
+        "textures/items/copper_update/amethyst_axe"
+      ]
+    },
+    "amethyst_boots": {
+      "textures": [
+        "textures/items/copper_update/amethyst_boots"
+      ]
+    },
+    "amethyst_chestplate": {
+      "textures": [
+        "textures/items/copper_update/amethyst_chestplate"
+      ]
+    },
+    "amethyst_helm": {
+      "textures": [
+        "textures/items/copper_update/amethyst_helmet"
+      ]
+    },
+    "amethyst_leggings": {
+      "textures": [
+        "textures/items/copper_update/amethyst_leggings"
+      ]
+    },
+    "amethyst_pickaxe": {
+      "textures": [
+        "textures/items/copper_update/amethyst_pickaxe"
+      ]
+    },
+    "amethyst_sword": {
+      "textures": [
+        "textures/items/copper_update/amethyst_sword"
+      ]
+    },
+    "fused_soul_leggings": {
+      "textures": [
+        "textures/items/ores/soul_fused_aluminum_leggings"
+      ]
+    },
+    "enchanted_golden_carrot": {
+      "textures": [
+        "textures/items/carrot_golden"
+      ]
+    },
+    "baked_eggplant": {
+      "textures": [
+        "textures/items/biome_update/baked_eggplant"
+      ]
+    },
+    "salad": {
+      "textures": [
+        "textures/items/biome_update/salad"
+      ]
+    },
+    "gabage_leaves": {
+      "textures": [
+        "textures/items/biome_update/cabbage_leaf"
+      ]
+    },
+    "dough": {
+      "textures": [
+        "textures/items/biome_update/dough"
+      ]
+    },
+    "cabbage_seed": {
+      "textures": [
+        "textures/items/biome_update/seeds_cabbage"
+      ]
+    },
+    "fused_soul_boots": {
+      "textures": [
+        "textures/items/ores/soul_fused_aluminum_boots"
+      ]
+    },
+    "adventure_hat": {
+      "textures": [
+        "textures/items/trophies/adventure_hat"
+      ]
+    },
+    "enchanter_eye": {
+      "textures": [
+        "textures/items/trophies/enchanter_eye"
+      ]
+    },
+    "lich_eye": {
+      "textures": [
+        "textures/items/trophies/lich_eye"
+      ]
+    },
+    "willager_eye": {
+      "textures": [
+        "textures/items/trophies/willager_eye"
+      ]
+    },
+    "staff_of_vitality": {
+      "textures": [
+        "textures/items/staffs/staff_of_vitality"
+      ]
+    },
+    "rune_of_protection": {
+      "textures": [
+        "textures/items/staffs/protection_rune"
+      ]
+    },
+    "rune_of_vitality": {
+      "textures": [
+        "textures/items/staffs/vitality_rune"
+      ]
+    },
+    "rune_of_mining": {
+      "textures": [
+        "textures/items/staffs/mine_rune"
+      ]
+    },
+    "rune_of_the_seas": {
+      "textures": [
+        "textures/items/staffs/sea_rune"
+      ]
+    },
+    "rune_of_strength": {
+      "textures": [
+        "textures/items/staffs/strength_rune"
+      ]
+    },
+    "default_rune": {
+      "textures": [
+        "textures/items/staffs/rune"
+      ]
+    },
+    "unactivated_rune_of_protection": {
+      "textures": [
+        "textures/items/staffs/uncactive_protection_rune"
+      ]
+    },
+    "unactivated_rune_of_vitality": {
+      "textures": [
+        "textures/items/staffs/unactive_vitality_rune"
+      ]
+    },
+    "unactivated_rune_of_mining": {
+      "textures": [
+        "textures/items/staffs/unactive_mine_rune"
+      ]
+    },
+    "unactivated_rune_of_the_seas": {
+      "textures": [
+        "textures/items/staffs/uncactive_sea_rune"
+      ]
+    },
+    "unactivated_rune_of_strength": {
+      "textures": [
+        "textures/items/staffs/unactive_strength_rune"
+      ]
+    },
+    "unactivated_default_rune": {
+      "textures": [
+        "textures/items/staffs/unactive_rune"
+      ]
+    },
+    "scroll_of_the_nether": {
+      "textures": [
+        "textures/items/staffs/magic_scroll_mine"
+      ]
+    },
+    ///rune_of_protection
+    "staff_of_the_seas": {
+      "textures": [
+        "textures/items/staffs/staff_of_the_seas"
+      ]
+    },
+    "record_travels": {
+      "textures": [
+        "textures/items/record_travelers"
+      ]
+    },
+    "staff_of_mining": {
+      "textures": [
+        "textures/items/staffs/staff_of_mining"
+      ]
+    },
+    "bundle": {
+      "textures": [
+        "textures/items/loot_bags/rare_bag"
+      ]
+    },
+    "staff_of_strength": {
+      "textures": [
+        "textures/items/staffs/staff_of_strength"
+      ]
+    },
+    "staff_of_protection": {
+      "textures": [
+        "textures/items/staffs/staff_of_protection"
+      ]
+    },
+    "staff": {
+      "textures": [
+        "textures/items/staffs/staff"
+      ]
+    },
+    "soul_star": {
+      "textures": [
+        "textures/items/trophies/soul_star"
+      ]
+    },
+    "stardust": {
+      "textures": [
+        "textures/items/ores/star_dust"
+      ]
+    },
+    "tin_ingot": {
+      "textures": [
+        "textures/items/ores/tin_ingot"
+      ]
+    },
+    "raw_tin": {
+      "textures": [
+        "textures/items/ores/raw_tin"
+      ]
+    },
+    "alluminum_ingot": {
+      "textures": [
+        "textures/items/ores/alluminum_ingot"
+      ]
+    },
+    "raw_alluminum": {
+      "textures": [
+        "textures/items/ores/raw_alluminum_ore"
+      ]
+    },
+    "stardust_nugget": {
+      "textures": [
+        "textures/items/ores/stardust_nugget"
+      ]
+    },
+    "fixed_ghost_necklace": {
+      "textures": [
+        "textures/items/trophies/fixed_ghost_necklace"
+      ]
+    },
+    "fused_soul_aluminum_ingot": {
+      "textures": [
+        "textures/items/ores/soul_dorget_alluminum"
+      ]
+    },
+    "broken_ghost_necklace": {
+      "textures": [
+        "textures/items/trophies/borken_ghost_necklace"
+      ]
+    },
+    "cooked_deer_meat": {
+      "textures": [
+        "textures/items/cooked_deer_meat"
+      ]
+    },
+    "raw_deer_meat": {
+      "textures": [
+        "textures/items/raw_deer_meat"
+      ]
+    },
+    "widlflower_item": {
+      "textures": [
+        "textures/blocks/wildflower.png"
+      ]
+    },
+    "torch": {
+      "textures": [
+        "textures/blocks/torch_on"
+      ]
+    },
+    "tiny_sprout_item": {
+      "textures": [
+        "textures/blocks/tiny_sprout.png"
+      ]
+    },
+    "taller_grass_item": {
+      "textures": [
+        "textures/blocks/taller_grass.png"
+      ]
+    },
+    "pink_lavender_item": {
+      "textures": [
+        "textures/blocks/pink_lavender.png"
+      ]
+    },
+    "glow_flower_item": {
+      "textures": [
+        "textures/blocks/glow_flower.png"
+      ]
+    },
+    "big_sprout_item": {
+      "textures": [
+        "textures/blocks/big_sprout.png"
+      ]
+    },
+    "wild_flower_item": {
+      "textures": [
+        "textures/blocks/wild_flower.png"
+      ]
+    },
+    "cornflower_pot_item": {
+      "textures": [
+        "textures/items/hanging_pots/hanging_cornflower"
+      ]
+    },
+    "glowberry_pot_item": {
+      "textures": [
+        "textures/items/hanging_pots/hanging_glow_berry"
+      ]
+    },
+    "lilac_pot_item": {
+      "textures": [
+        "textures/items/hanging_pots/hanging_lilac"
+      ]
+    },
+    "moss_pot_item": {
+      "textures": [
+        "textures/items/hanging_pots/hanging_moss"
+      ]
+    },
+    "oxeye_pot_item": {
+      "textures": [
+        "textures/items/hanging_pots/oxeye_hanging_pot"
+      ]
+    },
+    "berry_pot_item": {
+      "textures": [
+        "textures/items/hanging_pots/hanging_sweet_berry_bush"
+      ]
+    },
+    "tulip_pot_item": {
+      "textures": [
+        "textures/items/hanging_pots/tulip_hanging_pot"
+      ]
+    },
+    "rose_pot_item": {
+      "textures": [
+        "textures/items/hanging_pots/hanging_rose_pot"
+      ]
+    },
+    "bounty_paper_open": {
+      "textures": [
+        "textures/items/bounty_system/bounty_paper_open"
+      ]
+    },
+    "baguete": {
+      "textures": [
+        "textures/items/biome_update/baguete"
+      ]
+    },
+    "dead_tall_grass": {
+      "textures": [
+        "textures/blocks/dead_tall_grass_top"
+      ]
+    },
+    "tall_lavender_item": {
+      "textures": [
+        "textures/blocks/tall_lavender_top"
+      ]
+    },
+    "quest_paper": {
+      "textures": [
+        "textures/items/bounty_system/bounty_paper"
+      ]
+    },
+    "quest_scroll_opened": {
+      "textures": [
+        "textures/items/bounty_system/bounty_scroll_open"
+      ]
+    },
+    "quest_scroll_closed": {
+      "textures": [
+        "textures/items/bounty_system/bounty_scroll_closed"
+      ]
+    },
+    "eggplant_food": {
+      "textures": [
+        "textures/items/biome_update/Eggplant_Item"
+      ]
+    },
+    "eggplant_seed": {
+      "textures": [
+        "textures/items/biome_update/Eggplant_Seed"
+      ]
+    },
+    "wooden_spear": {
+      "textures": [
+        "textures/items/spears/wooden_spear"
+      ]
+    },
+    "iron_spear": {
+      "textures": [
+        "textures/items/spears/iron_spear"
+      ]
+    },
+    "golden_spear": {
+      "textures": [
+        "textures/items/spears/golden_spear"
+      ]
+    }, //stardust_ingot
+    "stardust_ingot": {
+      "textures": [
+        "textures/items/ores/stardust_ingot"
+      ]
+    },
+    "diamond_spear": {
+      "textures": [
+        "textures/items/spears/diamond_spear"
+      ]
+    },
+    "birch_sapling": {
+      "textures": [
+        "textures/blocks/sapling_birch"
+      ]
+    },
+    "fishing_hook": {
+      "textures": [
+        "textures/items/fishing_hook"
+      ]
+    },
+    "bag_of_sugar": {
+      "textures": [
+        "textures/items/bag_of_sugar"
+      ]
+    },
+    "raider_horn": {
+      "textures": [
+        "textures/items/raider_horn"
+      ]
+    },
+    "oak_sapling": {
+      "textures": [
+        "textures/blocks/sapling_oak"
+      ]
+    },
+    "lost_guardian_helmet": {
+      "textures": [
+        "textures/items/trophies/lost_warrior_helmet"
+      ]
+    },
+    //oak_sapling
+    "grape_item": {
+      "textures": [
+        "textures/items/biome_update/grape"
+      ]
+    },
+    "healthy_carrot": {
+      "textures": [
+        "textures/items/biome_update/healthy_carrot"
+      ]
+    },
+    "wild_carrot": {
+      "textures": [
+        "textures/items/biome_update/wild_carrot"
+      ]
+    },
+    "wooden_pickaxe": {
+      "textures": [
+        "textures/items/wood_pickaxe"
+      ]
+    },
+    "diamond_axe": {
+      "textures": [
+        "textures/items/diamond_axe"
+      ]
+    },
+    "iron_axe": {
+      "textures": [
+        "textures/items/iron_axe"
+      ]
+    },
+    "stone_axe": {
+      "textures": [
+        "textures/items/stone_axe"
+      ]
+    },
+    "willager_hat_item": {
+      "textures": [
+        "textures/items/trophies/willager_hat"
+      ]
+    },
+    "wood_axe": {
+      "textures": [
+        "textures/items/wood_axe"
+      ]
+    },
+    "enchanted_book": {
+      "textures": [
+        "textures/items/book_enchanted"
+      ]
+    },
+    "netherite_pickaxe": {
+      "textures": [
+        "textures/items/netherite_pickaxe"
+      ]
+    },
+    "netherite_axe": {
+      "textures": [
+        "textures/items/netherite_axe"
+      ]
+    },
+    "stone_pickaxe": {
+      "textures": [
+        "textures/items/stone_pickaxe"
+      ]
+    },
+    "iron_pickaxe": {
+      "textures": [
+        "textures/items/iron_pickaxe"
+      ]
+    },
+    "diamond_pickaxe": {
+      "textures": [
+        "textures/items/diamond_pickaxe"
+      ]
+    },
+    "small_backpack": {
+      "textures": [
+        "textures/items/backpack"
+      ]
+    },
+    "medium_backpack": {
+      "textures": [
+        "textures/items/backpack_uncommon"
+      ]
+    },
+    "large_backpack": {
+      "textures": [
+        "textures/items/backpack_large"
+      ]
+    },
+    "copper_helmet": {
+      "textures": [
+        "textures/items/copper_update/copper_helmet"
+      ]
+    },
+    "copper_boots": {
+      "textures": [
+        "textures/items/copper_update/copper_boots"
+      ]
+    },
+    "copper_chestplate": {
+      "textures": [
+        "textures/items/copper_update/copper_chestplate"
+      ]
+    },
+    "copper_leggings": {
+      "textures": [
+        "textures/items/copper_update/copper_leggings"
+      ]
+    },
+    "waypoint_marker": {
+      "textures": [
+        "textures/items/waystone/waypoint_marker"
+      ]
+    },
+    "ender_tear": {
+      "textures": [
+        "textures/items/waystone/ender_tear"
+      ]
+    },
+    "netherite_gold_leggings": {
+      "textures": [
+        "textures/items/nether_update/netherite_gold_leggings"
+      ]
+    },
+    "netherite_gold_boots": {
+      "textures": [
+        "textures/items/nether_update/netherite_gold_boots"
+      ]
+    },
+    "netherite_gold_helmet": {
+      "textures": [
+        "textures/items/nether_update/netherite_gold_helmet"
+      ]
+    },
+    "netherite_gold_chestplate": {
+      "textures": [
+        "textures/items/nether_update/netherite_gold_chestplate"
+      ]
+    },
+    "common_lootbag": {
+      "textures": [
+        "textures/items/loot_bags/common_bag"
+      ]
+    },
+    "rare_lootbag": {
+      "textures": [
+        "textures/items/loot_bags/rare_bag"
+      ]
+    },
+    "uncommon_lootbag": {
+      "textures": [
+        "textures/items/loot_bags/uncommon_bag"
+      ]
+    },
+    "open_uncommon_lootbag": {
+      "textures": [
+        "textures/items/loot_bags/open_uncommon_bag"
+      ]
+    },
+    "peach": {
+      "textures": [
+        "textures/items/biome_update/peach"
+      ]
+    },
+    "orange": {
+      "textures": [
+        "textures/items/biome_update/orange"
+      ]
+    },
+    "coconut_nut": {
+      "textures": [
+        "textures/items/biome_update/Coconut"
+      ]
+    },
+    "broken_open_coconut": {
+      "textures": [
+        "textures/items/biome_update/Opened_Coconut"
+      ]
+    },
+    "barley_seed": {
+      "textures": [
+        "textures/items/biome_update/barley_seeds"
+      ]
+    },
+    "barley_soup": {
+      "textures": [
+        "textures/items/biome_update/barley_stew"
+      ]
+    },
+    "onion_seed": {
+      "textures": [
+        "textures/items/biome_update/onion"
+      ]
+    },
+    "barley_straw": {
+      "textures": [
+        "textures/items/biome_update/barley"
+      ]
+    },
+    "baked_onion": {
+      "textures": [
+        "textures/items/biome_update/baked_onion"
+      ]
+    },
+    "berry_pie": {
+      "textures": [
+        "textures/items/biome_update/berry_pie"
+      ]
+    },
+    "berry_pie_slice": {
+      "textures": [
+        "textures/items/biome_update/berry_pie_slice"
+      ]
+    },
+    "grape_pie": {
+      "textures": [
+        "textures/items/biome_update/grape_pie"
+      ]
+    },
+    "grape_pie_slice": {
+      "textures": [
+        "textures/items/biome_update/grape_pie_slice"
+      ]
+    },
+    "tomato_seed": {
+      "textures": [
+        "textures/items/biome_update/Tomato"
+      ]
+    },
+    "stardust_axe": {
+      "textures": [
+        "textures/items/ores/stardust_axe"
+      ]
+    },
+    "stardust_pickaxe": {
+      "textures": [
+        "textures/items/ores/stardust_pickaxe"
+      ]
+    },
+    "stardust_shovel": {
+      "textures": [
+        "textures/items/ores/stardust_shovel"
+      ]
+    },
+    "copper_axe": {
+      "textures": [
+        "textures/items/copper_update/copper_axe"
+      ]
+    },
+    "copper_pickaxe": {
+      "textures": [
+        "textures/items/copper_update/copper_pickaxe"
+      ]
+    },
+    "copper_shovel": {
+      "textures": [
+        "textures/items/copper_update/copper_shovel"
+      ]
+    },
+    "lilax_heads": {
+      "textures": [
+        "textures/blocks/biome_update/lilax_heads"
+      ]
+    },
+    "anenome": {
+      "textures": [
+        "textures/blocks/biome_update/anenome"
+      ]
+    },
+    "hydrangea": {
+      "textures": [
+        "textures/blocks/biome_update/hydrangea"
+      ]
+    },
+    "lush_grass": {
+      "textures": [
+        "textures/blocks/biome_update/lush_grass_top"
+      ]
+    },
+    "bluegrod": {
+      "textures": [
+        "textures/blocks/biome_update/bluegrod_top"
+      ]
+    },
+    "iris": {
+      "textures": [
+        "textures/blocks/biome_update/iris"
+      ]
+    },
+    "desert_grass": {
+      "textures": [
+        "textures/blocks/biome_update/desert_grass"
+      ]
+    },
+    "copper_sword": {
+      "textures": [
+        "textures/items/copper_update/copper_sword"
+      ]
+    },
+    "stardust_hoe": {
+      "textures": [
+        "textures/items/ores/stardust_hoe"
+      ]
+    },
+    "stardust_helmet": {
+      "textures": [
+        "textures/items/ores/stardust_helmet"
+      ]
+    },
+    "stardust_chestplate": {
+      "textures": [
+        "textures/items/ores/stardust_chestplate"
+      ]
+    },
+    "stardust_leggings": {
+      "textures": [
+        "textures/items/ores/stardust_leggings"
+      ]
+    },
+    "stardust_boots": {
+      "textures": [
+        "textures/items/ores/stardust_boots"
+      ]
+    },
+    "stardust_sword": {
+      "textures": [
+        "textures/items/ores/stardust_sword"
+      ]
+    }
+    //coconut_nut //stardust_sword
+  }
+}

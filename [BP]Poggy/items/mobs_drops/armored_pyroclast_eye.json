@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:armored_pyroclast_eye",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "§5Shielded Pyroclast Eye\n§7Creates Ender Eyes"
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "armored_pyroclast_eye"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:alluminum_ore"
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 5
+			},
+			"minecraft:loot": "loot_tables/ores/alluminum_ore.json",
+			//Basic components
+			"minecraft:geometry": "geometry.shroom_nylium",
+			"tag:stone": {},
+			"minecraft:display_name": "tile.better_on_bedrock:alluminum_ore"
+		}
+	}
+}

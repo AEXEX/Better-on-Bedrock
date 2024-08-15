@@ -1,0 +1,34 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:barley_seed",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+				"tags": [
+					"pog:compost",
+					"pog:lowTier"
+				]
+			},
+			"minecraft:custom_components": [
+				"pog:compost"
+			],
+			"minecraft:block_placer": {
+				"block": "better_on_bedrock:barley_crop"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:glint": false,
+			"minecraft:icon": {
+				"textures": {
+					"default": "barley_seed"
+				}
+			}
+		}
+	}
+}

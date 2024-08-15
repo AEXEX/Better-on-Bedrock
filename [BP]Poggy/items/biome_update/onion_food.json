@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:onion_seed",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "better_on_bedrock:onion_crop"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:glint": false,
+			"minecraft:food": {
+				"nutrition": 2,
+				"saturation_modifier": 0.4,
+				"can_always_eat": false
+			},
+			"minecraft:use_modifiers": {
+				"use_duration": 1.6,
+				"movement_modifier": 0.35
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:icon": {
+				"texture": "onion_seed"
+			}
+		}
+	}
+}

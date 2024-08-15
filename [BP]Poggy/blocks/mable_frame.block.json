@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:malbite_frame",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"tag:stone": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "malbite_frame",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:map_color": "#ffffff"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:willager_eye",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:display_name": {
+				"value": "§5Willager Eye\n§7Creates Ender Eyes"
+			},
+			"minecraft:icon": {
+				"texture": "willager_eye"
+			}
+		}
+		}
+	}

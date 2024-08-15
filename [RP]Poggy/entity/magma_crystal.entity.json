@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "better_on_bedrock:magma_crystal",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/magma_crystal"
+			},
+			"geometry": {
+				"default": "geometry.magma_crystal"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}

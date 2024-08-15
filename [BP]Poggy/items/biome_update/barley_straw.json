@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:barley_straw",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+				"tags": [
+					"pog:compost",
+					"pog:medLowTier"
+				]
+			},
+			"minecraft:custom_components": [
+				"pog:compost"
+			],
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:glint": false,
+			"minecraft:icon": {
+				"textures": {
+					"default": "barley_straw"
+				}
+			}
+		}
+	}
+}

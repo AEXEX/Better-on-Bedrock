@@ -1,0 +1,44 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:healthy_carrot_item",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [
+				"pog:compost",
+				"pog:food_effects"
+			],
+			"minecraft:tags": {
+				"tags": [
+					"pog:compost",
+					"pog:highTier"
+				]
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:hand_equipped": false,
+			"minecraft:glint": false,
+			"minecraft:display_name": {
+				"value": "item.better_on_bedrock:healthy_carrot_item"
+			},
+			"minecraft:use_modifiers": {
+				"use_duration": 1.6,
+				"movement_modifier": 0.35
+			},
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": 0.6,
+				"can_always_eat": false
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:icon": {
+				"textures": {
+					"default": "healthy_carrot"
+				}
+			}
+		}
+	}
+}

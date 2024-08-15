@@ -1,0 +1,23 @@
+{
+
+	"format_version": "1.20.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:uncommon_lootbag",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": false,
+			"minecraft:icon": {
+				"texture": "uncommon_lootbag"
+			},
+			"minecraft:interact_button": true,
+			"minecraft:cooldown":{
+				"category": "lootbags",
+				"duration": 3
+			}
+			
+		}
+		}
+	}

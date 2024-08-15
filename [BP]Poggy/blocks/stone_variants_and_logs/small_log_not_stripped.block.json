@@ -1,0 +1,141 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:small_log_not_stripped",
+			"menu_category": {
+				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:facing_direction"
+					]
+				}
+			},
+			"states": {
+				"better_on_bedrock:stripped": [
+					"false",
+					"true"
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'up' || q.block_state('minecraft:facing_direction') == 'down' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'east' || q.block_state('minecraft:facing_direction') == 'west' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							90
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'north' || q.block_state('minecraft:facing_direction') == 'south' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							90,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('better_on_bedrock:stripped') == 'false'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 1
+					},
+					"minecraft:destructible_by_explosion": {
+						"explosion_resistance": 30
+					},
+					"minecraft:geometry": "geometry.small_log_not_stripped",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "small_log_not_stripped",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:map_color": "#ffffff"
+				}
+			},
+			{
+				"condition": "query.block_state('better_on_bedrock:stripped') == 'true'",
+				"components": {
+					"minecraft:destructible_by_mining": {
+						"seconds_to_destroy": 1
+					},
+					"minecraft:destructible_by_explosion": {
+						"explosion_resistance": 30
+					},
+					"minecraft:geometry": "geometry.small_log_not_stripped",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "small_log_acacia_stripped",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:map_color": "#ffffff"
+				}
+			}
+		],
+		"components": {
+			"tag:wood": {},
+			"minecraft:collision_box": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					16,
+					10
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					16,
+					10
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.small_log_not_stripped",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "small_log_not_stripped",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#ffffff"
+		}
+	}
+}
