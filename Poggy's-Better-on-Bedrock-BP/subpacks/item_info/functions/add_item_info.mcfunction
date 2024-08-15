@@ -1,1 +1,0 @@
-tag @p add add_item_info
